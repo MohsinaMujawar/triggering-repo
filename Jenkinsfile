@@ -7,6 +7,7 @@ pipeline{
           git url: "https://github.com/MohsinaMujawar/triggering-repo.git", branch: "main"
         }
         sh "cat README.md"
+        echo "hello world"
       }
     }
   } 
